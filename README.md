@@ -10,7 +10,7 @@ bot.py also includes an arparse argument to run 5 bots at the same time.
 because a few of my bots are interacting within themselves and it looks like I am just 
 talking to myself. And I think that is kinda silly. Here let me show you a picture:
 
-[my interaction](Screen_Shot.png)
+![my interaction](Screen_Shot.png)
 
 The following is output from my bot_counter.py file. 
 
