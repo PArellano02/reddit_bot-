@@ -68,13 +68,15 @@ for reply in not_self_replies:
         pass
 print("len(valid_replies)=",len(valid_replies))
 
+# to delete invalid comments
 for reply in top_level_comments:
     if reply not in valid_top_level_comments:
         reply.delete()
         print ('invalid comments deleted')
-
+        
+# to delete invalid replies
 for reply in replies:
-    if reply not in not_self_replies and  reply not in valid_top_level_comments:
+    if reply not in not_self_replies:
         reply.delete()
         print('deleted invalid replies')
 

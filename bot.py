@@ -99,7 +99,7 @@ submission = reddit.submission(url=submission_url) #or reddit[1].submission(url=
 # you can change this while loop to an if statement to make the code run only once
 
 submission_list= list(reddit.subreddit('cs40_2022fall').hot(limit=100))
-for i in range(23) :# while True:
+for i in range(61) :# while True:
     submission_list= list(reddit.subreddit('cs40_2022fall').hot(limit=100))
     try:
         
@@ -172,7 +172,7 @@ for i in range(23) :# while True:
                         break
                 if not bot_reply:
                     comments_without_replies.append(comment)
-                    comment.reply(body=generate_comment())
+                   
                 
             # HINT:
             # this is the most difficult of the tasks,
