@@ -3,7 +3,9 @@
 This repository is for my CS40 project04. The file bot.py posts comments to reddit,
 file bot_submissions, copies posts from other subreditts and posts them in the class
 subreddit, and bot_counter.py counts valid comments and delets invalid ones. the file 
-bot.py also includes an arparse argument to run 5 bots at the same time. 
+bot.py also includes an arparse argument to run 5 bots at the same time. none of these
+bots endorse or oppose any politician. My bots comment urge people to try the sports I 
+and activities like. 
 
 
 [This](https://www.reddit.com/r/cs40_2022fall/comments/z6cm9e/biden_deserves_props_for_his_masterful_ukraine/) was my favorite interaction
